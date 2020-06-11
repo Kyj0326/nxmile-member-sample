@@ -19,8 +19,9 @@ public class NXmileService implements INxmileService{
         return null;
     }
 
+    @Override
     public ResponseEntity<String> doInterfaceExternalSystem(final RequestDto RequestDto) {
-        log.debug("[Service] SwingMockApplicationService Called - doInterfaceExternalSystem [{}]", RequestDto);
+        log.debug("[Service] doInterfaceExternalSystem Called - doInterfaceExternalSystem [{}]", RequestDto);
 
         IExternalSampleSystem externalSampleSystem;
 
