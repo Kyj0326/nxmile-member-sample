@@ -2,11 +2,12 @@ package com.skcc.nxm.core.domain.entity.member;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Embeddable;
 
 @Embeddable
-@Getter @AllArgsConstructor
+@Getter @AllArgsConstructor @NoArgsConstructor
 public class HomeInfo {
 
     private String homeTelNo;
