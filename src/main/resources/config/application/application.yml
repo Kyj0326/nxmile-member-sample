@@ -5,7 +5,7 @@ spring:
   application:
     name: nxmile-member-api
   profiles:
-    active: local
+    active: dev
 
 #logging:
   #config: classpath:config/log/${spring.profiles.active}.xml
